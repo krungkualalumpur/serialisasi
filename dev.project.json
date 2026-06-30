@@ -1,0 +1,22 @@
+{
+  "name": "serialisasi",
+    "globIgnorePaths": [
+        "**/package.json",
+        "**/tsconfig.json"
+    ],
+    "tree": {
+        "$className": "DataModel",
+		"$ignoreUnknownInstances": true,
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "$ignoreUnknownInstances": true,
+            "Packages": {
+                "$className": "Folder",
+                "$path": "Packages",
+                "seri": {
+                    "$path": "src"
+                }
+            }
+        }
+    }
+}
